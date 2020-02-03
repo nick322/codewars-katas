@@ -6,4 +6,4 @@ php:
 install:
     - composer install --prefer-dist
 
-script: vendor/bin/phpunit --testdox
+script: vendor/bin/phpunit --testdox -c phpunit.xml
