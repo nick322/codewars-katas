@@ -3,10 +3,11 @@ function odd_or_even(array $a): string
 {
     $sum = 0;
     foreach ($a as $v) {
-        $sum = $v + $sum;
+        $sum =  $sum +(int)$v ;
     }
-    if ($sum % 2 == 1) {
+    if ($sum % 2 == 0) {
+        return 'even';
+    }else{
         return 'odd';
     }
-    return 'even';
 }
