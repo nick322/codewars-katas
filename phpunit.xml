@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<phpunit>
+<phpunit
+        bootstrap="vendor/autoload.php"
+        colors="true"
+        convertErrorsToExceptions="true"
+        convertNoticesToExceptions="true"
+        convertWarningsToExceptions="true">
   <testsuites>
     <testsuite name="7-kyu-Odd-or-Even">
         <file>7-kyu\Odd or Even\src\oddOrEven.php</file>
