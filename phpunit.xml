@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit>
+  <testsuites>
+    <testsuite name="7-kyu-Odd-or-Even">
+        <file>7-kyu\Odd or Even\src\oddOrEven.php</file>
+        <directory>7-kyu\Odd or Even\test</directory>
+    </testsuite>
+  </testsuites>
+</phpunit>
