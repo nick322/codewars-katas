@@ -4,6 +4,6 @@ php:
     - 7.3
 
 install:
-    - composer install --prefer-dist --quiet
+    - composer install --prefer-dist
 
 script: vendor/bin/phpunit
