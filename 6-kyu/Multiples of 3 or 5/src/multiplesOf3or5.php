@@ -6,7 +6,6 @@ function multiplesOf3or5($number)
     for ($number; $number > 0; $number--) {
         if ($number % 3 == 0 || $number % 5 == 0) {
             $sum = $sum + $number;
-            echo $number;
         }
     }
     return $sum;
