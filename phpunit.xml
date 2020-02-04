@@ -10,5 +10,9 @@
         <file>7-kyu/Odd or Even/src/oddOrEven.php</file>
         <directory>7-kyu/Odd or Even/test</directory>
     </testsuite>
+    <testsuite name="6-kyu-Multiples-of-3-or-5">
+        <file>6-kyu/Multiples of 3 or 5/src/multiplesOf3or5.php</file>
+        <directory>6-kyu/Multiples of 3 or 5/test</directory>
+    </testsuite>
   </testsuites>
 </phpunit>
