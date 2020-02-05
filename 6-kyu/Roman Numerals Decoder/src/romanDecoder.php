@@ -18,23 +18,20 @@ function romanDecoder($roman)
 
     foreach ($digits as $index => $digit) {
 
-        if(!isset($digits[$index]))
-		{
-			continue;
+        if (!isset($digits[$index])) {
+            continue;
         }
-        
+
         if ($index < $lastIndex) {
             $left = $roman_to_decimal[$digits[$index]];
             $right = $roman_to_decimal[$digits[$index + 1]];
             if ($left < $right) {
                 $sum += ($right - $left);
-                unset($digits[$index+1],$left, $right);
+                unset($digits[$index + 1], $left, $right);
                 continue;
             }
-
         }
         $sum += $roman_to_decimal[$digit];
- 
     }
 
     return $sum;
