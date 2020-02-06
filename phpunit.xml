@@ -18,5 +18,9 @@
         <file>6-kyu/Roman Numerals Decoder/src/romanDecoder.php</file>
         <directory>6-kyu/Roman Numerals Decoder/test</directory>
     </testsuite>
+    <testsuite name="6-kyu-Find-the-odd-int">
+        <file>6-kyu/Find the odd int/src/findTheOddInt.php</file>
+        <directory>6-kyu/Find the odd int/test</directory>
+    </testsuite>
   </testsuites>
 </phpunit>
