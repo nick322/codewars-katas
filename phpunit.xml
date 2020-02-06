@@ -22,5 +22,9 @@
         <file>6-kyu/Find the odd int/src/findTheOddInt.php</file>
         <directory>6-kyu/Find the odd int/test</directory>
     </testsuite>
+    <testsuite name="7-kyu-Growth-of-a-Population">
+        <file>7-kyu/Growth of a Population/src/nbYear.php</file>
+        <directory>7-kyu/Growth of a Population/test</directory>
+    </testsuite>
   </testsuites>
 </phpunit>
