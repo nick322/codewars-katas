@@ -9,11 +9,17 @@ function arrayDiff($a, $b)
         return $a;
     }
     foreach ($a as $va) {
+        $find = false;
         foreach ($b as $vb) {
-            if ($va != $vb) {
-                $add[] = $va;
+            if ($va == $vb) {
+
+                $find = true;
             }
         }
+        if (!$find) {
+            $add[] = $va;
+        }
     }
+
     return $add;
 }
