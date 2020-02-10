@@ -26,9 +26,9 @@
         <file>7-kyu/Growth of a Population/src/nbYear.php</file>
         <directory>7-kyu/Growth of a Population/test</directory>
     </testsuite>
-    <testsuite name="6-kyu-A-Rule-of-Divisibility-by-13">
-        <file>6-kyu/A Rule of Divisibility by 13/src/aRuleOfDivisibilityBy13.php</file>
-        <directory>6-kyu/A Rule of Divisibility by 13/test</directory>
+    <testsuite name="6-kyu-Array-diff">
+        <file>6-kyu/Array diff/src/arrayDiff.php</file>
+        <directory>6-kyu/Array diff/test</directory>
     </testsuite>
   </testsuites>
 </phpunit>
