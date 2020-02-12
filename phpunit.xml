@@ -30,5 +30,9 @@
         <file>6-kyu/Array diff/src/arrayDiff.php</file>
         <directory>6-kyu/Array diff/test</directory>
     </testsuite>
+    <testsuite name="6-kyu-Playing-with-digits">
+        <file>6-kyu/Playing with digits/src/digPow.php</file>
+        <directory>6-kyu/Playing with digits/test</directory>
+    </testsuite>
   </testsuites>
 </phpunit>
