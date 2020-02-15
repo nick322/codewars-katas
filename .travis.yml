@@ -5,5 +5,8 @@ php:
 
 install:
     - composer install --prefer-dist
+    
+ignore:
+  - *.md
 
 script: vendor/bin/phpunit --testdox --debug -c phpunit.xml 
