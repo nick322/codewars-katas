@@ -34,5 +34,9 @@
         <file>6-kyu/Playing with digits/src/digPow.php</file>
         <directory>6-kyu/Playing with digits/test</directory>
     </testsuite>
+    <testsuite name="7-kyu-Exes-and-Ohs">
+        <file>7-kyu/Exes and Ohs/src/XO.php</file>
+        <directory>7-kyu/Exes and Ohs/test</directory>
+    </testsuite>
   </testsuites>
 </phpunit>
