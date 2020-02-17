@@ -38,5 +38,9 @@
         <file>7-kyu/Exes and Ohs/src/XO.php</file>
         <directory>7-kyu/Exes and Ohs/test</directory>
     </testsuite>
+    <testsuite name="5-kyu-Common-Denominators">
+        <file>5-kyu/Common Denominators/src/convertFrac.php</file>
+        <directory>5-kyu/Common Denominators/test</directory>
+    </testsuite>
   </testsuites>
 </phpunit>
